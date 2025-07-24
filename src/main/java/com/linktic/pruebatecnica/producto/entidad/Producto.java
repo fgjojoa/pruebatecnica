@@ -37,6 +37,21 @@ public class Producto extends Persistente {
 		super();
 	}
 
+	public Producto(Integer id, String nombre, Double precio, String descripcion) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.precio = precio;
+		this.descripcion = descripcion;
+	}
+
+	public Producto(Integer id, String nombre, Double precio) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.precio = precio;
+	}
+
 	public Integer getId() {
 		return id;
 	}
